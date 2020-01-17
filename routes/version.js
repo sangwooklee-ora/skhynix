@@ -1,2 +1,2 @@
-var version = "jonggyou-1.0";
+var version = "jonggyou-1.3";
 exports.version = version;
