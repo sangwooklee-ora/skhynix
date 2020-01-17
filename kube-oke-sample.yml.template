@@ -53,7 +53,7 @@ spec:
         image: icn.ocir.io/skimgmt/oke-sample-${KUBERNETES_NAMESPACE}:${WERCKER_GIT_COMMIT}
         env:
         - name: MYSQL_SERVICE_HOST
-          value: "132.145.89.83"
+          value: "140.238.12.35"
         - name: MYSQL_SERVICE_USER
           value: "test"
         - name: MYSQL_SERVICE_PASSWORD
