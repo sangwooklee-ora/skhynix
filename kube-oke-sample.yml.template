@@ -50,7 +50,7 @@ spec:
     spec:
       containers:
       - name: oke-sample
-        image: icn.ocir.io/cnm7rw4anxzc/oke-sample-${KUBERNETES_NAMESPACE}:${WERCKER_GIT_COMMIT}
+        image: icn.ocir.io/cnm7rw4anxzc/oke-sample-${KUBERNETES_NAMESPACE}
         env:
         - name: MYSQL_SERVICE_HOST
           value: "140.238.12.35"
