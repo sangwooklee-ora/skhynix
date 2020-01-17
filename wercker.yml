@@ -34,7 +34,7 @@ deploy:
         username: skhynix/oracleidentitycloudservice/jonggyou.kim@oracle.com
         password: v;zc{k<.ws1NLNNCm:HF
         registry: https://icn.ocir.io/v2/
-        repository: skhynix/oke-sample-$KUBERNETES_NAMESPACE
+        repository: cnm7rw4anxzc/oke-sample-$KUBERNETES_NAMESPACE
         tag: ${WERCKER_GIT_COMMIT}
 
 
