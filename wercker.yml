@@ -31,7 +31,7 @@ deploy:
 
     - internal/docker-push:
         image-name: oke-sample
-        username: skhynix/oracleidentitycloudservice/jonggyou.kim@oracle.com
+        username: cnm7rw4anxzc/oracleidentitycloudservice/jonggyou.kim@oracle.com
         password: v;zc{k<.ws1NLNNCm:HF
         registry: https://icn.ocir.io/v2/
         repository: cnm7rw4anxzc/oke-sample-$KUBERNETES_NAMESPACE
